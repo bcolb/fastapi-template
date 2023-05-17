@@ -56,3 +56,11 @@ Alternatively, use curl to get the web page.
 ```
 curl http://localhost:8000/
 ```
+
+## Testing
+
+Pytest tests are located in the 'tests' directory. To run them, make sure the virtual environment is sourced and then enter:
+
+```
+pytest
+```
