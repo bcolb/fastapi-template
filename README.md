@@ -57,6 +57,10 @@ Alternatively, use curl to get the web page.
 curl http://localhost:8000/
 ```
 
+### Running From VS Code
+
+With the addition of the the .vscode/launch.json file you can run the app using Run & Debug in VS Code.
+
 ## Testing
 
 Pytest tests are located in the 'tests' directory. To run them, make sure the virtual environment is sourced and then enter:
