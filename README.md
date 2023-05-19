@@ -61,6 +61,17 @@ curl http://localhost:8000/
 
 With the addition of the the .vscode/launch.json file you can run the app using Run & Debug in VS Code.
 
+### Running From Docker
+
+This repo has been setup to use docker-compose to manage the docker container. With the following command docker-compose will build the image, create and start the container.
+
+```
+docker compose up
+```
+
+Confirm that your FastAPI API endpoint is available by using curl or navigating to the following URL in your browser http://localhost:8008/
+
+
 ## Testing
 
 Pytest tests are located in the 'tests' directory. To run them, make sure the virtual environment is sourced and then enter:
