@@ -66,7 +66,13 @@ With the addition of the the .vscode/launch.json file you can run the app using 
 This repo has been setup to use docker-compose to manage the docker container. With the following command docker-compose will build the image, create and start the container.
 
 ```
-docker compose up
+docker compose up -d
+```
+
+Using the -d flag will run docker in daemon mode meaning you retain access to your terminal window. To stop the docker container(s) and application run:
+
+```
+docker compose down
 ```
 
 Confirm that your FastAPI API endpoint is available by using curl or navigating to the following URL in your browser http://localhost:8008/
